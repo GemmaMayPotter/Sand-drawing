@@ -31,7 +31,7 @@ class Pixel {
   
   void display() {
     // Display the pixel
-    fill(0);
+    fill(255,0,0);
     //stroke(0,life);
     square(x,y,w);
   }
