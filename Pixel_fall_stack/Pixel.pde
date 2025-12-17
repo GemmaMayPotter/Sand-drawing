@@ -26,6 +26,7 @@ class Pixel {
       //check if square reaches the bottom
       if (newY > height - w) {
         y = height - w;
+        x = x + random(-1,1);
         speed = 0;
         return;
       }
